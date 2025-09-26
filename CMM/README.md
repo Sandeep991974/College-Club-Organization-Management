@@ -52,15 +52,6 @@ A modern, responsive homepage for a club management system featuring a sleek dar
 3. Start your web server (Apache via XAMPP)
 4. Navigate to `http://localhost/CMM/` in your browser
 
-### File Structure
-```
-CMM/
-├── index.html          # Main HTML file
-├── styles.css          # All CSS styles and animations
-├── script.js           # JavaScript functionality
-└── README.md           # Project documentation
-```
-
 ## 🎨 Design Philosophy
 
 ### Color Palette
@@ -146,10 +137,11 @@ Created with ❤️ for modern club management systems.
 
 ---
 
-**Note**: This is a frontend homepage template. For full functionality, integrate with your preferred backend technology (PHP, Node.js, Python, etc.).
+**Note**: This is a frontend homepage template. For full functionality, integrate with your preferred backend technology PHP.
 
 ## 🌐 Live Demo
 
-Open `index.html` in your browser or visit `http://localhost/CMM/` if using XAMPP.
+https://club.myindianclub.com
+
 
 Enjoy the smooth, professional club management homepage! 🚀
