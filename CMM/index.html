@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClubMaster - Professional Club Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-users"></i>
+                    <span>ClubMaster</span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.php" class="nav-link login-btn">Login</a>
+                    </li>
+                </ul>
+                <div class="nav-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Manage Your Club with 
+                    <span class="gradient-text">Excellence</span>
+                </h1>
+                <p class="hero-description">
+                    Streamline member management, event planning, and communication with our comprehensive club management platform designed for modern organizations.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Get Started
+                    </button>
+                    <button class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-card">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="dashboard-preview">
+                            <div class="chart-container">
+                                <div class="chart-bar" style="height: 60%"></div>
+                                <div class="chart-bar" style="height: 80%"></div>
+                                <div class="chart-bar" style="height: 45%"></div>
+                                <div class="chart-bar" style="height: 90%"></div>
+                                <div class="chart-bar" style="height: 70%"></div>
+                            </div>
+                            <div class="stats-preview">
+                                <div class="stat-item">
+                                    <span class="stat-number">1,247</span>
+                                    <span class="stat-label">Members</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">156</span>
+                                    <span class="stat-label">Events</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="10000">0</h3>
+                        <p class="stat-text">Active Members</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="2500">0</h3>
+                        <p class="stat-text">Events Organized</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="500">0</h3>
+                        <p class="stat-text">Clubs Managed</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3 class="stat-number" data-target="98">0</h3>
+                        <p class="stat-text">Satisfaction Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-description">
+                    Everything you need to manage your club efficiently and professionally
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3 class="feature-title">Member Management</h3>
+                    <p class="feature-description">
+                        Comprehensive member profiles, registration, and communication tools
+                    </p>
+                    <div class="feature-link">
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3 class="feature-title">Event Planning</h3>
+                    <p class="feature-description">
+                        Create, manage, and track events with RSVP and attendance features
+                    </p>
+                    <div class="feature-link">
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Analytics Dashboard</h3>
+                    <p class="feature-description">
+                        Real-time insights and reporting for data-driven decisions
+                    </p>
+                    <div class="feature-link">
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3 class="feature-title">Payment Processing</h3>
+                    <p class="feature-description">
+                        Secure membership fees and event payments with automated billing
+                    </p>
+                    <div class="feature-link">
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="feature-title">Communication Hub</h3>
+                    <p class="feature-description">
+                        Integrated messaging, notifications, and announcement system
+                    </p>
+                    <div class="feature-link">
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Mobile Ready</h3>
+                    <p class="feature-description">
+                        Fully responsive design works perfectly on all devices
+                    </p>
+                    <div class="feature-link">
+                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Transform Your Club Management?</h2>
+                <p class="cta-description">
+                    Join thousands of clubs that trust ClubMaster for their management needs
+                </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Start Free Trial
+                    </button>
+                    <button class="btn btn-outline">
+                        <i class="fas fa-phone"></i>
+                        Schedule Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="cta-bg-shapes">
+            <div class="cta-shape cta-shape-1"></div>
+            <div class="cta-shape cta-shape-2"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-users"></i>
+                        <span>ClubMaster</span>
+                    </div>
+                    <p class="footer-description">
+                        Professional club management system designed to streamline operations and enhance member experience.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Product</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Features</a></li>
+                            <li><a href="#" class="footer-link">Pricing</a></li>
+                            <li><a href="#" class="footer-link">Demo</a></li>
+                            <li><a href="#" class="footer-link">API</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Company</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">About</a></li>
+                            <li><a href="#" class="footer-link">Careers</a></li>
+                            <li><a href="#" class="footer-link">Blog</a></li>
+                            <li><a href="#" class="footer-link">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Support</h4>
+                        <ul class="footer-list">
+                            <li><a href="#" class="footer-link">Help Center</a></li>
+                            <li><a href="#" class="footer-link">Contact</a></li>
+                            <li><a href="#" class="footer-link">Privacy</a></li>
+                            <li><a href="#" class="footer-link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; 2024 ClubMaster. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
